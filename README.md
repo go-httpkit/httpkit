@@ -25,3 +25,7 @@ standard `net/http` package. For example, I _always_ add signal catching for gra
 shutting down the web server. I _always_ add logging of requests. I _always_ add a request ID
 and a logger at minimum to every request context. However, the core logic of the application
 is handled by standard `http.Handler` types. 
+
+## How Do I Use This?
+
+Check out the [`example`](./example/) for a quick little demo on what you can do with this package.
